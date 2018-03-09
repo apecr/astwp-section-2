@@ -5,7 +5,7 @@ another_dict = {1: 15,
                 3: 150}
 lottery_player = {
     'name': 'Rolf',
-    'numbers': (13, 45, 66, 23,22)
+    'numbers': (13, 45, 66, 23, 22)
 }
 
 universities = [
@@ -23,4 +23,3 @@ universities = [
 lottery_player['name'] = 'John'
 
 ##
-

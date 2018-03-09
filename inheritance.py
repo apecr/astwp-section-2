@@ -12,7 +12,8 @@ class Student:
         # return a new Student callend friend_name in the same school as self
         return cls(friend_name, origin.school, *args, **kwargs)
 
-## 
+##
+
 
 class WorkingStudent(Student):
     def __init__(self, name, school, salary, job_title):

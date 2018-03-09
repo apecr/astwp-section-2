@@ -25,7 +25,7 @@ player_one.numbers = (1, 2, 3, 4, 5, 6)
 
 
 class Student:
-    def __init__(self, name,school):
+    def __init__(self, name, school):
         self.name = name
         self.school = school
         self.marks = []
@@ -43,7 +43,7 @@ class Student:
         # Static method in Java
         print('I am going to school.')
         print('I am {}'.format(cls))
-        
+
 
 anna = Student('Anna', 'MIT')
 anna.marks = [92, 91, 100]

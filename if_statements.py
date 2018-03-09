@@ -10,7 +10,8 @@
 # else:
 #     print('You don\'t know {}!'.format(person))
 
-## Exercise
+# Exercise
+
 
 def who_do_you_know():
     # Ask the user for a list of people they know
@@ -29,5 +30,6 @@ def ask_user():
     # Ask user for a name
     # See if their name is in the list of people they know
     # Print out that they know the person
+
 
 ask_user()
