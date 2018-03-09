@@ -33,10 +33,19 @@ class Student:
     def average(self):
         return sum(self.marks) / len(self.marks)
 
-    def go_to_school(self):
+    @staticmethod
+    def go_to_school_static():
+        # Static method in Java
         print('I am going to school.')
+
+    @classmethod
+    def go_to_school_class(cls):
+        # Static method in Java
+        print('I am going to school.')
+        print('I am {}'.format(cls))
         
 
 anna = Student('Anna', 'MIT')
 anna.marks = [92, 91, 100]
-anna.go_to_school()
+anna.go_to_school_class()
+anna.go_to_school_static()
