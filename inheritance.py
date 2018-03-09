@@ -8,9 +8,9 @@ class Student:
         return sum(self.marks)/len(self.marks)
 
     @classmethod
-    def friend(cls, origin, friend_name, *args):
+    def friend(cls, origin, friend_name, *args, **kwargs):
         # return a new Student callend friend_name in the same school as self
-        return cls(friend_name, origin.school, *args)
+        return cls(friend_name, origin.school, *args, **kwargs)
 
 ## 
 
