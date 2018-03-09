@@ -32,8 +32,11 @@ class Student:
 
     def average(self):
         return sum(self.marks) / len(self.marks)
+
+    def go_to_school(self):
+        print('I am going to school.')
         
 
 anna = Student('Anna', 'MIT')
 anna.marks = [92, 91, 100]
-print(anna.average())
+anna.go_to_school()
