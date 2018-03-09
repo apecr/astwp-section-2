@@ -19,4 +19,8 @@ universities = [
     }
 ]
 
-print(sum(lottery_player['numbers']))
+# print(sum(lottery_player['numbers']))
+lottery_player['name'] = 'John'
+
+##
+
